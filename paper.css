@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.box {
+  margin: auto;
+  width: 50vw;
+  border: 3px solid black;
+  border-radius: 2rem;
+  text-align: center;
+  margin-top: 20vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/899/325/192/minimalism-rock-paper-scissors-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+button {
+  background-color: lightblue;
+  font-size: 70px;
+  padding: 10px;
+  border-radius: 55rem;
+  text-transform: capitalize;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.but {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+}
+
+h3 {
+  font-family: "poppins";
+  font-size: 29px;
+  text-transform: uppercase;
+  background-color: rgba(244, 244, 5, 0.85);
+  color: rgb(11, 11, 11);
+  -webkit-text-stroke-width: 1px; /* The width of the stroke */
+  -webkit-text-stroke-color: rgb(252, 250, 250);
+  font-weight: bolder;
+}
+.top {
+  font-size: 50px;
+  color: yellow;
+}
+
+#predict {
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  background-color: black;
+  width: max-content;
+  margin: auto;
+  border-radius: 12px;
+}
+
+.sep {
+  background-color: black;
+  height: 3px;
+}
+
+.green,
+#gre {
+  color: rgb(37, 214, 37);
+}
+
+.red,
+#red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
